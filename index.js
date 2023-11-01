@@ -3,7 +3,7 @@ const express = require('express');
 
 
 //init app
-const PORT =4000;
+const PORT =5000;
 const app = express();
 app.get('/',(req,res) => res.send('<h1>Hello ee</h1>'));
 
